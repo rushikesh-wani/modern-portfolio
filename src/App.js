@@ -1,6 +1,7 @@
 import AboutMe from "./Components/AboutMe";
 import Hero from "./Components/Hero";
 import Nav from "./Components/Nav";
+import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <AboutMe />
         <Skills />
+        <Projects />
       </div>
     </div>
   );

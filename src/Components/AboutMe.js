@@ -3,14 +3,14 @@ import HeroImage from "../asset/rushi.jpg";
 
 const AboutMe = () => {
   return (
-    <section className="bg-violet-100/50 px-5 md:py-10 lg:px-40">
+    <section className="bg-violet-100/50 dark:bg-gray-900 px-5 md:py-10 lg:px-40 duration-1000">
       <h1 className="font-montserrat font-medium text-4xl text-center p-5">
         About Me
       </h1>
       <div className="md:h-fit flex flex-col md:flex-row justify-between items-center gap-5">
         <div className="left-div ">
           <div className=" relative flex justify-center">
-            <div className="w-56 p-5 rounded-xl -rotate-6 hover:rotate-0 duration-200 bg-white shadow-md md:w-80">
+            <div className="w-56 p-5 rounded-xl hover:-translate-y-10 duration-200 bg-white dark:bg-gray-700/50 shadow-md dark:shadow-2xl md:w-80">
               <img
                 src={HeroImage}
                 alt="hero-img"
@@ -24,13 +24,13 @@ const AboutMe = () => {
         </div>
         <div className="right-div">
           <div className="flex flex-col gap-1 md:px-5">
-            <p className="font-montserrat font-semibold text-2xl md:text-4xl">
+            <p className="font-montserrat font-semibold text-3xl md:text-4xl">
               Rushikesh Wani
             </p>
-            <p className="font-poppins font-medium text-base bg-violet-200/50 rounded-lg text-violet-900 w-fit py-1 px-3">
+            <p className="font-poppins font-medium text-base bg-violet-200/50 dark:bg-violet-800/50 rounded-lg text-violet-900 dark:text-white w-fit py-1 px-3">
               Frontend Developer
             </p>
-            <p className="font-poppins py-4">
+            <p className="font-poppins text-sm md:text-base md:py-2">
               Ahoy there! 🎉 I'm a seasoned Full-Stack developer based in Pune,
               India, proudly waving my Information Technology undergrad cape
               from SPPU! 🎓 I've delved into web development since my freshman
