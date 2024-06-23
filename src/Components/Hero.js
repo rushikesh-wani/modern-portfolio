@@ -2,13 +2,9 @@ import React from "react";
 import HeroImage from "../asset/rushi.jpg";
 import {
   HTMLFloat,
-  ReactJs,
   ReactJsFloat,
-  ReduxJs,
   ReduxJsFloat,
-  Tailwind,
   TailwindFloat,
-  VSCode,
   VSCodeFloat,
 } from "../Constants/Svg";
 
