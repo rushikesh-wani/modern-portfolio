@@ -34,46 +34,84 @@ const Skills = () => {
         </button>
       </div>
 
-      <div className="grid grid-cols-3 sm:grid-cols-6 place-items-center py-4 md:py-10 gap-4">
-        <div className="skill-circle bg-sky-200/50 dark:bg-sky-800/50">
-          <ReactJs />
+      <div className="grid grid-cols-3 sm:grid-cols-6 place-items-center py-4 md:py-10 gap-x-4 gap-y-4">
+        <div>
+          <div className="skill-circle bg-sky-200/50 dark:bg-sky-700/50">
+            <ReactJs />
+          </div>
+          <p className="font-poppins text-center">React JS</p>
         </div>
-        <div className="skill-circle bg-violet-200/50 dark:bg-violet-800/50">
-          <ReduxJs />
+        <div>
+          <div className="skill-circle bg-violet-200/50 dark:bg-violet-900/50">
+            <ReduxJs />
+          </div>
+          <p className="font-poppins text-center">Redux JS</p>
         </div>
-
-        <div className="skill-circle bg-sky-200/50 dark:bg-sky-800/50">
-          <Tailwind />
+        <div className="">
+          <div className="skill-circle bg-sky-200/50 dark:bg-sky-800/50">
+            <Tailwind />
+          </div>
+          <p className="font-poppins text-center">Tailwind</p>
         </div>
-        <div className="skill-circle bg-orange-200/50 dark:bg-orange-800/50 ">
-          <HTML />
+        <div>
+          <div className="skill-circle bg-orange-200/50 dark:bg-orange-800/50 ">
+            <HTML />
+          </div>
+          <p className="font-poppins text-center">HTML</p>
         </div>
-        <div className="skill-circle bg-blue-200/50 dark:bg-blue-800/50">
-          <CSS />
+        <div>
+          <div className="skill-circle bg-blue-200/50 dark:bg-blue-800/50">
+            <CSS />
+          </div>
+          <p className="font-poppins text-center">CSS</p>
         </div>
-        <div className="skill-circle bg-yellow-200/50 dark:bg-yellow-800/50">
-          <JavaScript />
+        <div>
+          <div className="skill-circle bg-yellow-200/50 dark:bg-yellow-800/50">
+            <JavaScript />
+          </div>
+          <p className="font-poppins text-center">JavaScript</p>
         </div>
-        <div className="skill-circle bg-blue-200/50 dark:bg-blue-800/50">
-          <Java />
+        <div>
+          <div className="skill-circle bg-blue-200/50 dark:bg-blue-800/50">
+            <Java />
+          </div>
+          <p className="font-poppins text-center">Java</p>
         </div>
-        <div className="skill-circle bg-indigo-200/50 dark:bg-indigo-800/50">
-          <C />
+        <div>
+          <div className="skill-circle bg-indigo-200/50 dark:bg-indigo-800/50">
+            <C />
+          </div>
+          <p className="font-poppins text-center">C</p>
         </div>
-        <div className="skill-circle bg-blue-200/50 dark:bg-blue-800/50">
-          <R />
+        <div>
+          <div className="skill-circle bg-blue-200/50 dark:bg-blue-800/50">
+            <R />
+          </div>
+          <p className="font-poppins text-center">R</p>
         </div>
-        <div className="skill-circle bg-sky-200/50 dark:bg-sky-800/50">
-          <VSCode />
+        <div>
+          <div className="skill-circle bg-sky-200/50 dark:bg-sky-800/50">
+            <VSCode />
+          </div>
+          <p className="font-poppins text-center">VS Code</p>
         </div>
-        <div className="skill-circle bg-stone-200/50 dark:bg-stone-800/50">
-          <GitHub className="" />
+        <div>
+          <div className="skill-circle bg-stone-200/50 dark:bg-stone-800/50">
+            <GitHub className="" />
+          </div>
+          <p className="font-poppins text-center">GitHub</p>
         </div>
-        <div className="skill-circle bg-green-200/50 dark:bg-green-800/50">
-          <MongoDB />
+        <div>
+          <div className="skill-circle bg-green-200/50 dark:bg-green-800/50">
+            <MongoDB />
+          </div>
+          <p className="font-poppins text-center">MongoDB</p>
         </div>
-        <div className="skill-circle bg-neutral-200/50 dark:bg-neutral-800/50">
-          <MYSQL />
+        <div>
+          <div className="skill-circle bg-neutral-200/50 dark:bg-neutral-800/50">
+            <MYSQL />
+          </div>
+          <p className="font-poppins text-center">MySQL</p>
         </div>
       </div>
     </section>

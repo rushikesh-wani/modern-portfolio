@@ -10,15 +10,18 @@ const AboutMe = () => {
       <div className="md:h-fit flex flex-col md:flex-row justify-between items-center gap-5">
         <div className="left-div ">
           <div className=" relative flex justify-center">
-            <div className="w-56 p-5 rounded-xl hover:-translate-y-10 duration-200 bg-white dark:bg-gray-700/50 shadow-md dark:shadow-2xl md:w-80">
+            <div className="w-56 p-2 md:p-5 rounded-xl hover:-translate-y-6 md:hover:-translate-y-10 duration-200 bg-white/50 dark:bg-gray-700/50 shadow-md dark:shadow-2xl md:w-80">
               <img
                 src={HeroImage}
                 alt="hero-img"
-                className="object-cover rounded-2xl"
+                className="object-cover rounded-xl"
               />
-              <h2 className="text-center text-base md:text-xl p-1">
-                Rushikesh Wani
+              <h2 className="text-center font-poppins text-violet-900 dark:text-white font-medium text-base md:text-xl mt-1">
+                - Rushikesh Wani -
               </h2>
+              <p className="text-center font-poppins text-gray-600 dark:text-gray-400 text-sm">
+                Pursuing Third year at VIT, Pune
+              </p>
             </div>
           </div>
         </div>
@@ -27,8 +30,8 @@ const AboutMe = () => {
             <p className="font-montserrat font-semibold text-3xl md:text-4xl">
               Rushikesh Wani
             </p>
-            <p className="font-poppins font-medium text-base bg-violet-200/50 dark:bg-violet-800/50 rounded-lg text-violet-900 dark:text-white w-fit py-1 px-3">
-              Frontend Developer
+            <p className="px-3 py-1 ring-0 text-xs font-medium font-poppins outline-none bg-violet-200 dark:bg-violet-800/50 text-violet-900 dark:text-white hover:duration-300 rounded-lg w-fit">
+              #Frontend Developer
             </p>
             <p className="font-poppins text-sm md:text-base md:py-2">
               Ahoy there! 🎉 I'm a seasoned Full-Stack developer based in Pune,
