@@ -1,5 +1,4 @@
 import React from "react";
-import project1 from "../asset/project/Project01.png";
 import { ProjectList } from "../Constants";
 
 const Projects = () => {
@@ -9,6 +8,9 @@ const Projects = () => {
         Projects
       </h1>
       <div className="bg-white dark:bg-gray-700/50 shadow-xl flex flex-row flex-wrap sm:flex-nowrap gap-x-1 gap-y-1 sm:gap-x-4 sm:gap-y-2 justify-center items-center py-2 sm:px-28 mx-auto w-full md:w-fit rounded-lg ">
+        <button className="font-poppins font-medium text-base focus:bg-violet-200/50 dark:focus:bg-violet-900/50 rounded-lg text-violet-900 dark:text-white w-fit py-1 px-3">
+          All
+        </button>
         <button className="font-poppins font-medium text-base focus:bg-violet-200/50 dark:focus:bg-violet-900/50 rounded-lg text-violet-900 dark:text-white w-fit py-1 px-3">
           Full Stack
         </button>
@@ -39,7 +41,10 @@ const Projects = () => {
             </div>
             <div className="flex gap-x-2 my-1">
               {item.Tags.map((tag) => (
-                <p className="px-3 py-1 ring-0 text-xs font-medium font-poppins outline-none bg-violet-50 dark:bg-violet-800/50 text-violet-900 dark:text-white hover:duration-300 rounded-lg">
+                <p
+                  key={tag}
+                  className="px-3 py-1 ring-0 text-xs font-medium font-poppins outline-none bg-violet-50 dark:bg-violet-800/50 text-violet-900 dark:text-white hover:duration-300 rounded-lg"
+                >
                   #{tag}
                 </p>
               ))}

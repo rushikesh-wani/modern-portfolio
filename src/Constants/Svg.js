@@ -18,14 +18,14 @@ export const C = () => {
           y2="45.52"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#3940a4"></stop>
-          <stop offset="1" stop-color="#293091"></stop>
+          <stop offset="0" stopColor="#3940a4"></stop>
+          <stop offset="1" stopColor="#293091"></stop>
         </linearGradient>
         <path
           fill="url(#9nBOzQEsA2vJDj4A8wbora_shQTXiDQiQVR_gr1)"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M22.903,3.286c0.679-0.381,1.515-0.381,2.193,0	c3.355,1.883,13.451,7.551,16.807,9.434C42.582,13.1,43,13.804,43,14.566c0,3.766,0,15.101,0,18.867	c0,0.762-0.418,1.466-1.097,1.847c-3.355,1.883-13.451,7.551-16.807,9.434c-0.679,0.381-1.515,0.381-2.193,0	c-3.355-1.883-13.451-7.551-16.807-9.434C5.418,34.899,5,34.196,5,33.434c0-3.766,0-15.101,0-18.867	c0-0.762,0.418-1.466,1.097-1.847C9.451,10.837,19.549,5.169,22.903,3.286z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         ></path>
         <linearGradient
           id="9nBOzQEsA2vJDj4A8wborb_shQTXiDQiQVR_gr2"
@@ -35,20 +35,20 @@ export const C = () => {
           y2="31.562"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#7b83eb"></stop>
-          <stop offset="1" stop-color="#5961c3"></stop>
+          <stop offset="0" stopColor="#7b83eb"></stop>
+          <stop offset="1" stopColor="#5961c3"></stop>
         </linearGradient>
         <path
           fill="url(#9nBOzQEsA2vJDj4A8wborb_shQTXiDQiQVR_gr2)"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M5.304,34.404C5.038,34.048,5,33.71,5,33.255c0-3.744,0-15.014,0-18.759c0-0.758,0.417-1.458,1.094-1.836	c3.343-1.872,13.405-7.507,16.748-9.38c0.677-0.379,1.594-0.371,2.271,0.008c3.343,1.872,13.371,7.459,16.714,9.331	c0.27,0.152,0.476,0.335,0.66,0.576L5.304,34.404z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         ></path>
         <path
           fill="#fff"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M24,10c7.727,0,14,6.273,14,14s-6.273,14-14,14s-14-6.273-14-14	S16.273,10,24,10z M24,17c3.863,0,7,3.136,7,7c0,3.863-3.137,7-7,7s-7-3.137-7-7C17,20.136,20.136,17,24,17z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         ></path>
         <linearGradient
           id="9nBOzQEsA2vJDj4A8wborc_shQTXiDQiQVR_gr3"
@@ -58,14 +58,14 @@ export const C = () => {
           y2="36.777"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#5c65d6"></stop>
-          <stop offset=".999" stop-color="#464eb0"></stop>
+          <stop offset="0" stopColor="#5c65d6"></stop>
+          <stop offset=".999" stopColor="#464eb0"></stop>
         </linearGradient>
         <path
           fill="url(#9nBOzQEsA2vJDj4A8wborc_shQTXiDQiQVR_gr3)"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M42.485,13.205c0.516,0.483,0.506,1.211,0.506,1.784c0,3.795-0.032,14.589,0.009,18.384c0.004,0.396-0.127,0.813-0.323,1.127	L23.593,24L42.485,13.205z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         ></path>
         <path
           d="M24,10c5.128,0,9.602,2.771,12.041,6.887l-6.073,3.47C28.737,18.347,26.527,17,24,17c-3.864,0-7,3.136-7,7 c0,3.863,3.137,7,7,7c2.57,0,4.812-1.392,6.029-3.459l6.132,3.374C33.75,35.142,29.21,38,24,38c-7.727,0-14-6.273-14-14 S16.273,10,24,10 M24,9C15.729,9,9,15.729,9,24s6.729,15,15,15c5.367,0,10.36-2.908,13.03-7.59l0.503-0.882l-0.89-0.49 l-6.132-3.374l-0.851-0.468l-0.493,0.837C28.09,28.863,26.11,30,24,30c-3.308,0-6-2.692-6-6s2.692-6,6-6 c2.099,0,4.011,1.076,5.115,2.879l0.507,0.828l0.842-0.481l6.073-3.47l0.882-0.504l-0.518-0.874C34.205,11.827,29.262,9,24,9L24,9 z"
@@ -150,8 +150,8 @@ export const R = () => {
           y2="27.783"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#bec1c4"></stop>
-          <stop offset="1" stop-color="#939399"></stop>
+          <stop offset="0" stopColor="#bec1c4"></stop>
+          <stop offset="1" stopColor="#939399"></stop>
         </linearGradient>
         <path
           fill="url(#__u04104Xr4WevsSMNpCfa_CLvQeiwFpit4_gr1)"
@@ -165,8 +165,8 @@ export const R = () => {
           y2="35.285"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset=".003" stop-color="#008ded"></stop>
-          <stop offset="1" stop-color="#0061a7"></stop>
+          <stop offset=".003" stopColor="#008ded"></stop>
+          <stop offset="1" stopColor="#0061a7"></stop>
         </linearGradient>
         <path
           fill="url(#__u04104Xr4WevsSMNpCfb_CLvQeiwFpit4_gr2)"
@@ -511,7 +511,7 @@ export const GitHub = () => {
         viewBox="0 0 32 32"
       >
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 21.300781 7.4375 25.800781 12.207031 27.386719 C 12.808594 27.496094 13.027344 27.128906 13.027344 26.808594 C 13.027344 26.523438 13.015625 25.769531 13.011719 24.769531 C 9.671875 25.492188 8.96875 23.160156 8.96875 23.160156 C 8.421875 21.773438 7.636719 21.402344 7.636719 21.402344 C 6.546875 20.660156 7.71875 20.675781 7.71875 20.675781 C 8.921875 20.761719 9.554688 21.910156 9.554688 21.910156 C 10.625 23.746094 12.363281 23.214844 13.046875 22.910156 C 13.15625 22.132813 13.46875 21.605469 13.808594 21.304688 C 11.144531 21.003906 8.34375 19.972656 8.34375 15.375 C 8.34375 14.0625 8.8125 12.992188 9.578125 12.152344 C 9.457031 11.851563 9.042969 10.628906 9.695313 8.976563 C 9.695313 8.976563 10.703125 8.65625 12.996094 10.207031 C 13.953125 9.941406 14.980469 9.808594 16 9.804688 C 17.019531 9.808594 18.046875 9.941406 19.003906 10.207031 C 21.296875 8.65625 22.300781 8.976563 22.300781 8.976563 C 22.957031 10.628906 22.546875 11.851563 22.421875 12.152344 C 23.191406 12.992188 23.652344 14.0625 23.652344 15.375 C 23.652344 19.984375 20.847656 20.996094 18.175781 21.296875 C 18.605469 21.664063 18.988281 22.398438 18.988281 23.515625 C 18.988281 25.121094 18.976563 26.414063 18.976563 26.808594 C 18.976563 27.128906 19.191406 27.503906 19.800781 27.386719 C 24.566406 25.796875 28 21.300781 28 16 C 28 9.371094 22.628906 4 16 4 Z"
         ></path>
       </svg>
@@ -586,29 +586,29 @@ export const MYSQL = () => {
 
 export const FacebookSVG = () => {
   return (
-    <a href="#" class="text-black dark:text-white">
+    <a href="#" className="text-violet-950 dark:text-white">
       <svg
-        class="w-6 h-6"
+        className="w-6 h-6"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"
         viewBox="0 0 8 19"
       >
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
       </svg>
-      <span class="sr-only">Facebook page</span>
+      <span className="sr-only">Facebook page</span>
     </a>
   );
 };
 export const DiscordSVG = () => {
   return (
-    <a href="#" class="text-black dark:text-white">
+    <a href="#" className="text-violet-950 dark:text-white">
       <svg
-        class="w-6 h-6"
+        className="w-6 h-6"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"
@@ -616,47 +616,50 @@ export const DiscordSVG = () => {
       >
         <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" />
       </svg>
-      <span class="sr-only">Discord community</span>
+      <span className="sr-only">Discord community</span>
     </a>
   );
 };
 export const TwitterSVG = () => {
   return (
-    <a href="#" class="text-black dark:text-white">
+    <a href="#" className="text-violet-950 dark:text-white">
       <svg
-        class="w-6 h-6"
+        className="w-6 h-6"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"
         viewBox="0 0 20 17"
       >
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
       </svg>
-      <span class="sr-only">Twitter page</span>
+      <span className="sr-only">Twitter page</span>
     </a>
   );
 };
 export const GithubSVG = () => {
   return (
-    <a href="#" class="text-black dark:text-white">
+    <a
+      href="https://github.com/rushikesh-wani/"
+      className="text-violet-950 dark:text-white"
+    >
       <svg
-        class="w-6 h-6"
+        className="w-6 h-6"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"
         viewBox="0 0 20 20"
       >
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
       </svg>
-      <span class="sr-only">GitHub account</span>
+      <span className="sr-only">GitHub account</span>
     </a>
   );
 };

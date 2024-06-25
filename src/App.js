@@ -1,9 +1,9 @@
-import AboutMe from "./Components/AboutMe";
-import Footer from "./Components/Footer";
-import Hero from "./Components/Hero";
+import AboutMe from "./ComponentsAnimated/AboutMe";
+import Footer from "./ComponentsAnimated/Footer";
+import Hero from "./ComponentsAnimated/Hero";
 import Nav from "./Components/Nav";
-import Projects from "./Components/Projects";
-import Skills from "./Components/Skills";
+import Projects from "./ComponentsAnimated/Projects";
+import Skills from "./ComponentsAnimated/Skills";
 
 function App() {
   return (

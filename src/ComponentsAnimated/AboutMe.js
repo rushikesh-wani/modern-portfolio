@@ -1,21 +1,49 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import HeroImage from "../asset/rushi.jpg";
 import { LuDownload, LuMail } from "react-icons/lu";
 
 const AboutMe = () => {
+  const { ref, inView } = useInView({
+    triggerOnce: false, // Trigger animations only the first time the component comes into view
+    threshold: 0.1, // Trigger when 10% of the component is visible
+  });
+
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 1.5 } },
+  };
+
+  const fadeIn = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { duration: 1.5 } },
+  };
+
   return (
     <section className="bg-violet-100/50 dark:bg-gray-900 px-5 md:py-10 lg:px-40 duration-1000">
       <h1 className="font-montserrat font-medium text-4xl text-center p-5">
         About Me
       </h1>
-      <div className="md:h-fit flex flex-col md:flex-row justify-between items-center gap-5">
-        <div className="left-div">
+      <div
+        ref={ref}
+        className="md:h-fit flex flex-col md:flex-row justify-between items-center gap-5"
+      >
+        <motion.div
+          className="left-div"
+          initial="hidden"
+          animate={inView ? "visible" : "hidden"}
+          variants={fadeInUp}
+        >
           <div className="relative flex justify-center">
             <div className="w-56 p-2 md:p-5 rounded-xl hover:-translate-y-6 md:hover:-translate-y-10 duration-200 bg-white/50 dark:bg-gray-700/50 shadow-md dark:shadow-2xl md:w-80">
-              <img
+              <motion.img
                 src={HeroImage}
                 alt="hero-img"
                 className="object-cover rounded-xl"
+                initial="hidden"
+                animate={inView ? "visible" : "hidden"}
+                variants={fadeIn}
               />
               <h2 className="text-center font-poppins text-violet-900 dark:text-white font-medium text-base md:text-xl mt-1">
                 - Rushikesh Wani -
@@ -25,8 +53,13 @@ const AboutMe = () => {
               </p>
             </div>
           </div>
-        </div>
-        <div className="right-div">
+        </motion.div>
+        <motion.div
+          className="right-div"
+          initial="hidden"
+          animate={inView ? "visible" : "hidden"}
+          variants={fadeInUp}
+        >
           <div className="flex flex-col gap-1 md:px-5">
             <p className="font-montserrat font-semibold text-3xl md:text-4xl">
               Rushikesh Wani
@@ -44,16 +77,24 @@ const AboutMe = () => {
               thing! 🚀
             </p>
             <div className="flex flex-row gap-x-4 py-4">
-              <button className="btn-solid w-fit flex items-center gap-x-2">
+              <motion.button
+                className="btn-solid w-fit flex items-center gap-x-2"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+              >
                 <LuDownload className="text-xl" />
                 Download CV
-              </button>
-              <button className="btn-link w-fit flex items-center gap-x-2">
+              </motion.button>
+              <motion.button
+                className="btn-link w-fit flex items-center gap-x-2"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+              >
                 <LuMail className="text-xl" /> Mail Me
-              </button>
+              </motion.button>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

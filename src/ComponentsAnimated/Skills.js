@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import { SkillList } from "../Constants";
 
 const Skills = () => {
@@ -24,13 +26,40 @@ const Skills = () => {
 
       <div className="grid grid-cols-3 sm:grid-cols-6 place-items-center py-4 md:py-10 gap-x-4 gap-y-4">
         {SkillList.map(({ id, component, label, bgClass }) => (
-          <div key={id}>
-            <div className={`skill-circle ${bgClass}`}>{component}</div>
-            <p className="font-poppins text-center">{label}</p>
-          </div>
+          <SkillCard
+            key={id}
+            component={component}
+            label={label}
+            bgClass={bgClass}
+          />
         ))}
       </div>
     </section>
+  );
+};
+
+const SkillCard = ({ component, label, bgClass }) => {
+  const { ref, inView } = useInView({
+    triggerOnce: false,
+    threshold: 0.1,
+  });
+
+  const fadeTop = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 1.5 } },
+  };
+
+  return (
+    <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={inView ? "visible" : "hidden"}
+      variants={fadeTop}
+      className="text-center"
+    >
+      <div className={`skill-circle ${bgClass}`}>{component}</div>
+      <p className="font-poppins">{label}</p>
+    </motion.div>
   );
 };
 

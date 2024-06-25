@@ -104,55 +104,41 @@ const Nav = () => {
 
       {/* this div is for collapsing the humberger menu (remove hidden class to check) */}
       {isMenuOpen ? (
-        <>
-          <div className="backdrop-filter backdrop-blur-sm bg-white dark:bg-gray-950 ease-in duration-300 dark:text-white bg-opacity-95 dark:bg-opacity-95 border-gray-200 dark:border-b-0  fixed inset-1 rounded-xl h-fit py-1">
-            <div className="flex justify-between items-center ">
-              <IoLogoNodejs className="w-10 h-10 mx-4 sm:mx-0 hover:text-violet-600 duration-300" />
+        <div className="backdrop-filter backdrop-blur-lg bg-white dark:bg-gray-900/50 dark:text-white bg-opacity-40 dark:bg-opacity-80 border-gray-200 dark:border-b-0  fixed inset-1 rounded-xl h-fit py-1">
+          <div className="flex justify-between items-center ">
+            <IoLogoNodejs className="w-10 h-10 mx-4 sm:mx-0 hover:text-violet-600 duration-300" />
 
-              <div className="flex gap-x-2 mx-3">
-                <button
-                  onClick={() => darkModeHandler()}
-                  className="rounded-full p-1 w-fit h-fit bg-violet-600 text-white"
-                >
-                  {dark ? (
-                    <PiSunBold className="text-2xl" />
-                  ) : (
-                    <TbMoon className="text-2xl" />
-                  )}
-                </button>
-                <button
-                  className="block md:hidden p-1 rounded-2xl duration-300d"
-                  onClick={onClickHandler}
-                >
-                  <FaXmark className="text-2xl" />
-                </button>
-              </div>
-            </div>
-            <div
-              id="items"
-              className="py-7 px-2 text-base text-black dark:text-white"
+            <button
+              className="block mx-3 md:hidden p-1 rounded-2xl duration-300d"
+              onClick={onClickHandler}
             >
-              <p className="font-montserrat p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
-                Home
-              </p>
-              <p className="font-montserrat p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
-                About Me
-              </p>
-              <p className="font-montserrat p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
-                Skills
-              </p>
-              <p className="font-montserrat p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
-                Projects
-              </p>
-              <p className="font-montserrat p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
-                Contact Me
-              </p>
-              <button className="my-2 mx-4 btn-solid py-1 px-3">
-                Download CV
-              </button>
-            </div>
+              <FaXmark className="text-white text-2xl" />
+            </button>
           </div>
-        </>
+          <div
+            id="items"
+            className="py-7 px-2 text-base text-black dark:text-white"
+          >
+            <p className="p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
+              Home
+            </p>
+            <p className="p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
+              About Me
+            </p>
+            <p className="p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
+              Skills
+            </p>
+            <p className="p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
+              Projects
+            </p>
+            <p className="p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
+              Contact Me
+            </p>
+            <button className="my-2 mx-4 border px-2 py-1 rounded-lg text-white bg-amber-600 border-amber-500 md:block duration-300 hover:bg-transparent hover:text-amber-500">
+              Download CV
+            </button>
+          </div>
+        </div>
       ) : (
         <div className="hidden inset-2 rounded-xl h-fit px-3 py-2 z-10 bg-secondary-dark shadow-md shadow-slate-400/20">
           <div className="flex justify-between items-center">

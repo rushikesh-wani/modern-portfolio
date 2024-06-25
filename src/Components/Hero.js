@@ -1,5 +1,6 @@
 import React from "react";
 import HeroImage from "../asset/rushi.jpg";
+import { FaArrowRight } from "react-icons/fa6";
 import {
   HTMLFloat,
   ReactJsFloat,
@@ -10,7 +11,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className=" bg-gray-100/50 text-black dark:bg-gray-900 dark:text-white duration-1000">
+    <div className="bg-gray-100/50 text-black dark:bg-gray-900 dark:text-white duration-1000">
       <div className="md:h-screen px-5 pt-20 md:py-20 lg:px-40 flex flex-col-reverse justify-around items-center md:flex-row gap-5">
         <div className="left-div w-full md:w-fit">
           <div className="pb-5 md:pb-0">
@@ -27,11 +28,13 @@ const Hero = () => {
               client's requirements, with attention to detail, scalability, and
               performance.
             </p>
-            <button className="btn-solid w-fit">About Me</button>
+            <button className="btn-solid w-fit flex items-center gap-x-2">
+              About Me <FaArrowRight />
+            </button>
           </div>
         </div>
-        <div className="Right-div ">
-          <div className=" relative flex justify-center pt-10 px-10">
+        <div className="Right-div">
+          <div className="relative flex justify-center pt-10 px-10">
             <div className="w-56 md:w-80">
               <img
                 src={HeroImage}
@@ -39,14 +42,13 @@ const Hero = () => {
                 className="object-cover rounded-full"
               />
             </div>
-
             <div className="absolute top-3 -left-0 w-14 h-14 rounded-full flex justify-center items-center bg-white dark:bg-gray-700/50 shadow-lg dark:shadow-2xl">
               <TailwindFloat className="" />
             </div>
             <div className="absolute top-8 right-8 w-10 h-10 rounded-full flex justify-center items-center bg-white dark:bg-gray-700/50 shadow-xl dark:shadow-2xl">
               <ReduxJsFloat />
             </div>
-            <div className="absolute bottom-10 left-2 w-11 h-11 rounded-full flex justify-center items-center bg-white dark:bg-gray-700/50 shadow-lg dark:shadow-2xl ">
+            <div className="absolute bottom-10 left-2 w-11 h-11 rounded-full flex justify-center items-center bg-white dark:bg-gray-700/50 shadow-lg dark:shadow-2xl">
               <VSCodeFloat />
             </div>
             <div className="absolute bottom-0 md:bottom-10 right-2 md:-right-1 w-14 h-14 rounded-full flex justify-center items-center bg-white dark:bg-gray-700/50 shadow-lg dark:shadow-2xl">
