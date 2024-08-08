@@ -10,8 +10,8 @@ const Projects = () => {
   };
 
   return (
-    <section className="px-5 pb-5 md:pb-10 lg:px-40 duration-1000">
-      <h1 className="font-montserrat font-medium text-4xl text-center p-5">
+    <section className="bg-violet-100/50 dark:bg-gray-900 px-5 pb-5 md:pb-10 lg:px-40 duration-1000">
+      <h1 className="font-montserrat font-medium text-4xl text-center py-5">
         Projects
       </h1>
       <div className="bg-white dark:bg-gray-700/50 shadow-xl flex flex-row flex-wrap sm:flex-nowrap gap-x-1 gap-y-1 sm:gap-x-4 sm:gap-y-2 justify-center items-center py-2 sm:px-28 mx-auto w-full md:w-fit rounded-lg ">

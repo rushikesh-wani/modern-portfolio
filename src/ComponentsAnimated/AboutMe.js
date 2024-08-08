@@ -22,9 +22,10 @@ const AboutMe = () => {
 
   return (
     <section className="bg-violet-100/50 dark:bg-gray-900 px-5 md:py-10 lg:px-40 duration-1000">
-      <h1 className="font-montserrat font-medium text-4xl text-center p-5">
-        About Me
+      <h1 className="font-montserrat font-medium text-4xl text-center py-2">
+        - About Me -
       </h1>
+      <hr className="p-1 border-gray-500"></hr>
       <div
         ref={ref}
         className="md:h-fit flex flex-col md:flex-row justify-between items-center gap-5"
@@ -61,20 +62,20 @@ const AboutMe = () => {
           variants={fadeInUp}
         >
           <div className="flex flex-col gap-1 md:px-5">
-            <p className="font-montserrat font-semibold text-3xl md:text-4xl">
+            <p className="font-montserrat font-semibold text-3xl md:text-5xl">
               Rushikesh Wani
             </p>
             <p className="px-3 py-1 ring-0 text-xs font-medium font-poppins outline-none bg-violet-200 dark:bg-violet-800/50 text-violet-900 dark:text-white hover:duration-300 rounded-lg w-fit">
               #Frontend Developer
             </p>
             <p className="font-poppins text-sm md:text-base md:py-2">
-              Ahoy there! 🎉 I'm a seasoned Full-Stack developer based in Pune,
+              Hey there! 🎉 I'm a seasoned Full-Stack developer based in Pune,
               India, proudly waving my Information Technology undergrad cape
-              from SPPU! 🎓 I've delved into web development since my freshman
-              days. 💻 My focus lies in crafting websites and applications that
-              seamlessly blend functionality. Oh, and did I mention my love for
-              building full-stack clones and side projects? 💡 It's kind of my
-              thing! 🚀
+              from VIT, Pune! 🎓 I've delved into web development since my
+              freshman days. 💻 My focus lies in crafting websites and
+              applications that seamlessly blend functionality. Oh, and did I
+              mention my love for building full-stack clones and side projects?
+              💡 It's kind of my thing! 🚀
             </p>
             <div className="flex flex-row gap-x-4 py-4">
               <motion.button

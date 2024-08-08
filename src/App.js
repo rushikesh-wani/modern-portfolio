@@ -1,5 +1,5 @@
 import AboutMe from "./ComponentsAnimated/AboutMe";
-import Footer from "./ComponentsAnimated/Footer";
+import Footer from "./Components/Footer";
 import Hero from "./ComponentsAnimated/Hero";
 import Nav from "./Components/Nav";
 import Projects from "./ComponentsAnimated/Projects";

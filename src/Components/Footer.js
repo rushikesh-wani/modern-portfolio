@@ -16,8 +16,9 @@ const Footer = () => {
           <TwitterSVG />
           <DiscordSVG />
         </div>
-        <p className="font-montserrat my-2 text-center text">
-          Made with <span className="text-rose-600">❤</span> from Rushikesh Wani
+        <p className="font-montserrat my-2 text-center font-medium">
+          Made with <span className="text-rose-600">❤</span> from{" "}
+          <span className="font-semibold text-violet-800">Rushikesh Wani</span>
         </p>
       </div>
     </footer>
