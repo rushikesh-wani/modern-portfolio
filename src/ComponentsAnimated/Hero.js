@@ -3,6 +3,7 @@ import HeroImage from "../asset/rushi.jpg";
 import { FaArrowRight } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Typewriter from "typewriter-effect";
 import {
   HTMLFloat,
   ReactJsFloat,
@@ -48,8 +49,18 @@ const Hero = () => {
             </p>
             <p className="font-montserrat font-medium text-xl sm:text-2xl">
               I am into{" "}
-              <span className="text-violet-600 dark:font-semibold">
-                Frontend Developer!
+              <span className="inline-block text-violet-600 dark:font-semibold">
+                <Typewriter
+                  options={{
+                    strings: [
+                      "Frontend Developement!",
+                      "Full Stack Developement!",
+                      "React Developement!",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
               </span>
             </p>
             <p className="font-poppins py-4">

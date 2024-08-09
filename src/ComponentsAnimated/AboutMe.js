@@ -23,9 +23,8 @@ const AboutMe = () => {
   return (
     <section className="bg-violet-100/50 dark:bg-gray-900 px-5 md:py-10 lg:px-40 duration-1000">
       <h1 className="font-montserrat font-medium text-4xl text-center py-2">
-        - About Me -
+        About Me
       </h1>
-      <hr className="p-1 border-gray-500"></hr>
       <div
         ref={ref}
         className="md:h-fit flex flex-col md:flex-row justify-between items-center gap-5"

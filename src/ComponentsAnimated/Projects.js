@@ -83,12 +83,18 @@ const ProjectCard = ({ item }) => {
         {item.ProjectDescrp}
       </p>
       <div className="flex justify-around gap-x-4 my-1">
-        <button className="text-violet-900 dark:text-white px-4 py-1 font-poppins rounded-md font-medium ring-0 bg-violet-200/50 dark:bg-violet-600 focus:duration-300 focus:bg-violet-100/50 border dark:border-none dark:focus:bg-violet-500 border-violet-100 focus:border-violet-800">
+        <a
+          href={`${item.LiveLink}`}
+          className="text-violet-900 dark:text-white px-4 py-1 font-poppins rounded-md font-medium ring-0 bg-violet-200/50 dark:bg-violet-600 focus:duration-300 focus:bg-violet-100/50 border dark:border-none dark:focus:bg-violet-500 border-violet-100 focus:border-violet-800"
+        >
           Live link
-        </button>
-        <button className="text-violet-900 dark:text-white px-4 py-1 font-poppins rounded-md font-medium ring-0 bg-violet-200/50 dark:bg-violet-600 focus:duration-300 focus:bg-violet-100/50 border dark:border-none dark:focus:bg-violet-500 border-violet-100 focus:border-violet-800">
+        </a>
+        <a
+          href={`${item.GithubLink}`}
+          className="text-violet-900 dark:text-white px-4 py-1 font-poppins rounded-md font-medium ring-0 bg-violet-200/50 dark:bg-violet-600 focus:duration-300 focus:bg-violet-100/50 border dark:border-none dark:focus:bg-violet-500 border-violet-100 focus:border-violet-800"
+        >
           Code
-        </button>
+        </a>
       </div>
     </motion.div>
   );

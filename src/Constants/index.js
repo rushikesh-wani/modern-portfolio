@@ -1,7 +1,12 @@
 import Project1 from "../asset/project/Project01.png";
+import pro_01 from "../asset/project/pro_01.png";
+import pro_3 from "../asset/project/pro_3.png";
+import pro_2 from "../asset/project/pro_2.png";
+import pro_4 from "../asset/project/pro_4.png";
 import Project2 from "../asset/project/Project02.png";
 import Project3 from "../asset/project/Project03.png";
 import Project4 from "../asset/project/Project04.png";
+import pro_5 from "../asset/project/pro_5.png";
 import {
   C,
   CSS,
@@ -29,42 +34,52 @@ export const ProjectList = [
   {
     no: "01",
     ProjectTitle: "MERN CRUD APPLICATION",
-    Img: Project1,
+    Img: pro_01,
     ProjectDescrp:
       "Developed a full-stack CRUD MERN application using the MERN stack for efficient data management and user interaction. Features include a user-friendly interface, robust backend, scalable database, responsive design, and deployment on Render.",
     Tags: ["MERN Stack"],
-    LiveLink: "",
-    GithubLink: "",
+    LiveLink: "https://crud-mern-webapp.vercel.app/",
+    GithubLink: "https://github.com/rushikesh-wani/crud-mern-application.git",
   },
   {
     no: "02",
     ProjectTitle: "FOOD-VILLA FOOD APP",
-    Img: Project2,
+    Img: pro_2,
     ProjectDescrp:
       "Utilized Swiggy’s API for real-time restaurant data and menus. Implemented Redux for efficient cart management, developed a Shimmer UI for seamless transitions, integrated react-router-dom for navigation, and enabled easy cart modifications.",
     Tags: ["React JS", "Tailwind CSS"],
-    LiveLink: "",
-    GithubLink: "",
+    LiveLink: "https://food-villa-appweb.netlify.app/",
+    GithubLink: "/",
   },
   {
     no: "03",
     ProjectTitle: "YOUTUBE CLONE",
-    Img: Project3,
+    Img: pro_3,
     ProjectDescrp:
       "Integrated the YouTube Public Video API to fetch the top 50 videos. Implemented a Watch Page with real-time metrics, a debounced Search Bar, caching for optimized searching, and a Live Chat component with API polling for realtime user interaction.",
     Tags: ["React JS", "Tailwind CSS"],
-    LiveLink: "",
-    GithubLink: "",
+    LiveLink: "https://youtube-rushikesh.netlify.app/",
+    GithubLink: "/",
   },
   {
     no: "04",
     ProjectTitle: "MY PORTFOLIO WEBSITE",
-    Img: Project4,
+    Img: pro_4,
     ProjectDescrp:
       "Built a personal portfolio website using React and Tailwind CSS. Features include a clean and modern design, responsive layout, smooth navigation, and optimized performance for showcasing projects and skills effectively.",
     Tags: ["React JS", "Tailwind CSS"],
-    LiveLink: "",
-    GithubLink: "",
+    LiveLink: "https://rushikesh-wani-portfolio.vercel.app/",
+    GithubLink: "https://github.com/rushikesh-wani/modern-portfolio.git",
+  },
+  {
+    no: "05",
+    ProjectTitle: "SPOTIFY CLONE",
+    Img: pro_5,
+    ProjectDescrp:
+      "Developed a Spotify clone. It features a responsive user interface and optimized performance. The application allows users to play the next song automatically, browse separate albums, and filter music by artists, providing seamless UI.",
+    Tags: ["React JS", "Tailwind CSS"],
+    LiveLink: "https://sp0tify-clone.vercel.app/",
+    GithubLink: "https://github.com/rushikesh-wani/spotify-clone.git",
   },
 ];
 
