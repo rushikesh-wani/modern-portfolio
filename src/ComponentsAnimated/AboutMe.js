@@ -6,8 +6,8 @@ import { LuDownload, LuMail } from "react-icons/lu";
 
 const AboutMe = () => {
   const { ref, inView } = useInView({
-    triggerOnce: false, // Trigger animations only the first time the component comes into view
-    threshold: 0.1, // Trigger when 10% of the component is visible
+    triggerOnce: false,
+    threshold: 0.1,
   });
 
   const fadeInUp = {

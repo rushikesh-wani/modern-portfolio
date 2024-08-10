@@ -13,6 +13,7 @@ import { HiMenuAlt3, HiMoon, HiOutlineMoon } from "react-icons/hi";
 import { CgDarkMode, CgMenuRight, CgMoon } from "react-icons/cg";
 import { PiSunBold } from "react-icons/pi";
 import { TbMoon } from "react-icons/tb";
+import { Link } from "react-router-dom";
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [dark, setDark] = useState(false);
@@ -28,16 +29,9 @@ const Nav = () => {
 
   return (
     <header className="backdrop-filter backdrop-blur-lg bg-white dark:bg-gray-900/50 dark:text-white bg-opacity-40 dark:bg-opacity-40 border-gray-200 dark:border-b-0 z-30 fixed w-screen py-2 sm:py-4 flex justify-between md:justify-around items-center duration-1000">
-      {/* <img
-        className="max-w-10 text-white"
-        src="https://static-00.iconduck.com/assets.00/logo-nodejs-icon-1755x2048-ejfcifdr.png"
-        alt=""
-      /> */}
-      <IoLogoNodejs className="w-10 h-10 mx-5 sm:mx-0 hover:text-violet-600 duration-300" />
-
-      {/* <h1 className="text-gray-300 hover:text-white duration-500 text-xl font-medium hover:scale-110">
-        Rushikesh Wani
-      </h1> */}
+      <Link to={"/"}>
+        <IoLogoNodejs className="w-10 h-10 mx-5 sm:mx-0 hover:text-violet-600 duration-300 cursor-pointer" />
+      </Link>
       <div className="flex md:hidden gap-x-2 mx-4">
         <button className="p-1 rounded-2xl text-white bg-violet-600 duration-500">
           {dark ? (
@@ -45,48 +39,46 @@ const Nav = () => {
           ) : (
             <TbMoon className="text-2xl" onClick={() => darkModeHandler()} />
           )}
-          {/* <IoMenu className="text-2xl " /> */}
         </button>
         <button
           className="p-1 rounded-2xl text-black dark:text-white duration-500"
           onClick={onClickHandler}
         >
           <CgMenuRight className="text-2xl" />
-          {/* <IoMenu className="text-2xl " /> */}
         </button>
       </div>
 
       <nav className="hidden font-medium text-black dark:text-white md:flex items-center gap-x-7 ">
-        <a
-          href=""
+        <Link
+          to={"/"}
           className="duration-300 font-montserrat hover:text-violet-600 hover:underline underline-offset-4 hover:scale-110"
         >
           Home
-        </a>
-        <a
-          href=""
+        </Link>
+        <Link
+          to={"/about-me"}
           className="duration-300 font-montserrat hover:text-violet-600 hover:underline underline-offset-4 hover:scale-110"
         >
           About Me
-        </a>
-        <a
-          href=""
+        </Link>
+        <Link
+          to={"/skills"}
           className="duration-300 font-montserrat hover:text-violet-600 hover:underline underline-offset-4 hover:scale-110"
         >
           Skills
-        </a>
-        <a
-          href=""
+        </Link>
+        <Link
+          to={"/projects"}
           className="duration-300 font-montserrat hover:text-violet-600 hover:underline underline-offset-4 hover:scale-110"
         >
           Projects
-        </a>
-        <a
-          href=""
+        </Link>
+        <Link
+          to={"/"}
           className="duration-300 font-montserrat hover:text-violet-600 hover:underline underline-offset-4 hover:scale-110"
         >
           Contact Me
-        </a>
+        </Link>
         {/* <button className=" bg-gray-100 rounded-full p-2 w-fit h-fit hover:bg-violet-200/50 focus:bg-violet-600 focus:text-white">
           <TbMoon className="text-2xl" />
         </button> */}

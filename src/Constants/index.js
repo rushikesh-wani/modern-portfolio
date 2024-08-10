@@ -1,12 +1,9 @@
-import Project1 from "../asset/project/Project01.png";
-import pro_01 from "../asset/project/pro_01.png";
-import pro_3 from "../asset/project/pro_3.png";
+import pro_1 from "../asset/project/pro_1.png";
 import pro_2 from "../asset/project/pro_2.png";
+import pro_3 from "../asset/project/pro_3.png";
 import pro_4 from "../asset/project/pro_4.png";
-import Project2 from "../asset/project/Project02.png";
-import Project3 from "../asset/project/Project03.png";
-import Project4 from "../asset/project/Project04.png";
 import pro_5 from "../asset/project/pro_5.png";
+
 import {
   C,
   CSS,
@@ -34,7 +31,7 @@ export const ProjectList = [
   {
     no: "01",
     ProjectTitle: "MERN CRUD APPLICATION",
-    Img: pro_01,
+    Img: pro_1,
     ProjectDescrp:
       "Developed a full-stack CRUD MERN application using the MERN stack for efficient data management and user interaction. Features include a user-friendly interface, robust backend, scalable database, responsive design, and deployment on Render.",
     Tags: ["MERN Stack"],
