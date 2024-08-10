@@ -1,16 +1,7 @@
 import React, { useState } from "react";
-import { IoMenu, IoMoonOutline, IoMoonSharp } from "react-icons/io5";
-import {
-  FaAngleDown,
-  FaCloudMoon,
-  FaMoon,
-  FaRegMoon,
-  FaTurnDown,
-  FaXmark,
-} from "react-icons/fa6";
+import { FaAngleDown, FaXmark } from "react-icons/fa6";
 import { IoLogoNodejs } from "react-icons/io5";
-import { HiMenuAlt3, HiMoon, HiOutlineMoon } from "react-icons/hi";
-import { CgDarkMode, CgMenuRight, CgMoon } from "react-icons/cg";
+import { CgMenuRight } from "react-icons/cg";
 import { PiSunBold } from "react-icons/pi";
 import { TbMoon } from "react-icons/tb";
 import { Link } from "react-router-dom";

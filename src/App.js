@@ -20,7 +20,7 @@ function App() {
           element: (
             <>
               <Nav />
-              <div className="pt-10 bg-gray-100/50 text-black dark:bg-gray-900 dark:text-white">
+              <div className="py-16 bg-gray-100/50 text-black dark:bg-gray-900 dark:text-white">
                 <AboutMe />
               </div>
               <Footer />
@@ -32,7 +32,7 @@ function App() {
           element: (
             <>
               <Nav />
-              <div className="pt-8 bg-gray-100/50 text-black dark:bg-gray-900 dark:text-white">
+              <div className="py-8 bg-gray-100/50 text-black dark:bg-gray-900 dark:text-white">
                 <Skills />
               </div>
               <Footer />
