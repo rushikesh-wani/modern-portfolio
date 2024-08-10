@@ -1,6 +1,5 @@
 import AboutMe from "./ComponentsAnimated/AboutMe";
 import Footer from "./Components/Footer";
-import Hero from "./ComponentsAnimated/Hero";
 import Nav from "./Components/Nav";
 import Projects from "./ComponentsAnimated/Projects";
 import Skills from "./ComponentsAnimated/Skills";
@@ -21,9 +20,10 @@ function App() {
           element: (
             <>
               <Nav />
-              <div className="pt-10">
+              <div className="pt-10 bg-gray-100/50 text-black dark:bg-gray-900 dark:text-white">
                 <AboutMe />
               </div>
+              <Footer />
             </>
           ),
         },
@@ -32,9 +32,10 @@ function App() {
           element: (
             <>
               <Nav />
-              <div className="pt-6">
+              <div className="pt-8 bg-gray-100/50 text-black dark:bg-gray-900 dark:text-white">
                 <Skills />
               </div>
+              <Footer />
             </>
           ),
         },
@@ -43,9 +44,10 @@ function App() {
           element: (
             <>
               <Nav />
-              <div className="pt-16">
+              <div className="pt-16 bg-gray-100/50 text-black dark:bg-gray-900 dark:text-white">
                 <Projects />
               </div>
+              <Footer />
             </>
           ),
         },

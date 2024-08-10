@@ -124,21 +124,36 @@ const Nav = () => {
               id="items"
               className="py-7 px-2 text-base text-black dark:text-white"
             >
-              <p className="font-montserrat p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
+              <Link
+                to={"/"}
+                className="block font-montserrat p-4 py-2 rounded-xl duration-300 dark:hover:text-black hover:bg-purple-100"
+              >
                 Home
-              </p>
-              <p className="font-montserrat p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
+              </Link>
+              <Link
+                to={"/about-me"}
+                className="block font-montserrat p-4 py-2 rounded-xl duration-300 dark:hover:text-black hover:bg-purple-100"
+              >
                 About Me
-              </p>
-              <p className="font-montserrat p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
+              </Link>
+              <Link
+                to={"/skills"}
+                className="block font-montserrat p-4 py-2 rounded-xl duration-300 dark:hover:text-black hover:bg-purple-100"
+              >
                 Skills
-              </p>
-              <p className="font-montserrat p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
+              </Link>
+              <Link
+                to={"/projects"}
+                className="block font-montserrat p-4 py-2 rounded-xl duration-300 dark:hover:text-black hover:bg-purple-100"
+              >
                 Projects
-              </p>
-              <p className="font-montserrat p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
+              </Link>
+              <Link
+                to={"/"}
+                className="block font-montserrat p-4 py-2 rounded-xl duration-300 dark:hover:text-black hover:bg-purple-100"
+              >
                 Contact Me
-              </p>
+              </Link>
               <button className="my-2 mx-4 btn-solid py-1 px-3">
                 Download CV
               </button>
